@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Panic Response</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_user_details">User Details</string>
+    <string name="title_activity_care_takers_info_layout">Care Takers</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="title_activity_medicinal_details">Medicinal Details</string>
+    <string name="title_activity_emergency_help">Emergency Help Directions</string>
+    <string name="information_file">fall_detector_information_file1</string>
+    <string name="user_Name">UserName</string>
+    <string name="user_address">UserAddress</string>
+    <string name="careTaker1Name">CareTaker1Name</string>
+    <string name="careTaker1Phone">CareTaker1Phone</string>
+    <string name="careTaker2Name">CareTaker2Name</string>
+    <string name="careTaker2Phone">CareTaker2Phone</string>
+    <string name="medicinalDetails">MedicianlDetails</string>
+    <string name="emergencyHelp">EmergencyHelp</string>
+    <string name="isDataSaved">isDataSaved</string>
+    <string name="title_activity_view_user_info">User Information</string>
+    <string name="title_activity_care_takers_information">Care Takers</string>
+    <string name="title_activity_emergency_triggered">Emergency Triggered</string>
+    <string name="next">Next</string>
+    <string name="care_taker_one">Care Taker 1</string>
+    <string name="care_taker_two">Care Taker 2</string>
+    <string name="submit">Submit</string>
+    <string name="user_details">User Details</string>
+    <string name="help">Help!</string>
+    <string name="address">Address</string>
+    <string name="edit">Edit</string>
+    <string name="call">Call</string>
+    <string name="emergency_help">Emergency Help</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="fall_detection">Fall Detection</string>
+    <string name="panic_response_settings_file">PanicResponseSettings</string>
+    <string name="fall_detection_switch">FallDetectionSwitch</string>
+    <string name="switch_on">On</string>
+    <string name="switch_off">Off</string>
+    <string name="activated_emergency_trigger_msg">has activated the Emergency Trigger</string>
+    <string name="is_at">is at</string>
+
+</resources>

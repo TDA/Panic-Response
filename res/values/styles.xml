@@ -1,0 +1,58 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light.NoTitleBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="settingsTheme" parent="android:Theme.Light">
+        
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowBackground">@drawable/app_bkg</item>
+        <item name="android:textColorPrimaryInverse">@color/black</item>
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    
+    <style name="WhiteText">
+        <item name="android:typeface">sans</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ExtraLargeWhiteText" parent="@style/WhiteText">
+        <item name="android:textSize">26sp</item>
+    </style>
+    
+    <style name="SuperExtraLargeWhiteText" parent="@style/WhiteText">
+        <item name="android:textSize">40sp</item>
+    </style>
+    
+    <style name="VeryExtraLargeWhiteText" parent="@style/WhiteText">
+        <item name="android:textSize">32sp</item>
+    </style>
+
+    <style name="LargeWhiteText" parent="@style/WhiteText">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="MediumLargeWhiteText" parent="@style/WhiteText">
+        <item name="android:textSize">21sp</item>
+    </style>
+
+    <style name="MediumWhiteText" parent="@style/WhiteText">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="SmallWhiteText" parent="@style/WhiteText">
+        <item name="android:textSize">14sp</item>
+    </style>
+</resources>

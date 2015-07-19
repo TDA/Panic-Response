@@ -1,0 +1,50 @@
+
+<resources>
+
+    <string name="app_name">பீதி பிரதிபலிப்பு</string>
+    <string name="action_settings">அமைப்புகள்</string>
+    <string name="hello_world">ஹலோ உலகம்!</string>
+    <string name="title_activity_user_details">பயனர் விவரம்</string>
+    <string name="title_activity_care_takers_info_layout">பாதுகாப்பவர்</string>
+    <string name="name">பெயர்</string>
+    <string name="phone">தொலைபேசி</string>
+    <string name="title_activity_medicinal_details">மருத்துவ விவரங்கள்</string>
+    <string name="title_activity_emergency_help">அவசர உதவி திசைகள்</string>
+    <string name="information_file">fall_detector_information_file</string>
+    <string name="user_Name">UserName</string>
+    <string name="user_address">UserAddress</string>
+    <string name="careTaker1Name">CareTaker1Name</string>
+    <string name="careTaker1Phone">CareTaker1Phone</string>
+    <string name="careTaker2Name">CareTaker2Name</string>
+    <string name="careTaker2Phone">CareTaker2Phone</string>
+    <string name="medicinalDetails">MedicianlDetails</string>
+    <string name="emergencyHelp">EmergencyHelp</string>
+    <string name="isDataSaved">isDataSaved</string>
+    <string name="title_activity_view_user_info">பயனர் விவரம்</string>
+    <string name="title_activity_care_takers_information">பாதுகாப்பவர்</string>
+    <string name="title_activity_emergency_triggered">அவசர தூண்டப்படுகிறது</string>
+    
+    <string name="next">அடுத்தது</string>
+    <string name="care_taker_one">பாதுகாப்பவர் 1</string>
+     <string name="care_taker_two">பாதுகாப்பவர் 2</string>
+     <string name="submit">சமர்ப்பிக்கவும்</string>
+     <string name="user_details">பயனர் விவரம்</string>
+     <string name="help">உதவி!</string>
+     <string name="address">முகவரி</string>
+     <string name="edit">திருத்தம்</string>
+     <string name="call">அழைப்பு</string>
+     <string name="emergency_help">அவசர உதவி</string>
+     <string name="cancel">ரத்து</string>
+
+<string name="title_activity_settings">அமைப்புகள்</string>
+   <string name="fall_detection">விழும் கண்டறிதல்</string>
+    <string name="panic_response_settings_file">PanicResonseSettings</string>
+    <string name="fall_detection_switch">FallDetectionSwitch</string>
+    <string name="switch_on">தொடங்கு</string>
+    <string name="switch_off">நிறுத்து</string>
+
+<string name="activated_emergency_trigger_msg">அவசர தூண்டல் செயற்படுத்தியுள்ளார்</string>
+    <string name="is_at">அவர் இந்த இடத்தில் இருக்கிறார்</string>
+
+</resources>
+

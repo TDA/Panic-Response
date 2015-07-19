@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mabers.panicresponse"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.mabers.panicresponse.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mabers.panicresponse.UserDetailsActivity"
+            android:label="@string/title_activity_user_details" >
+        </activity>
+        <activity
+            android:name="com.mabers.panicresponse.CareTakersInfoLayout"
+            android:label="@string/title_activity_care_takers_info_layout" >
+        </activity>
+        <activity
+            android:name="com.mabers.panicresponse.MedicinalDetails"
+            android:label="@string/title_activity_medicinal_details" >
+        </activity>
+        <activity
+            android:name="com.mabers.panicresponse.EmergencyHelp"
+            android:label="@string/title_activity_emergency_help" >
+        </activity>
+        <activity
+            android:name="com.mabers.panicresponse.ViewUserInfoActivity"
+            android:label="@string/title_activity_view_user_info" >
+        </activity>
+        <activity
+            android:name="com.mabers.panicresponse.CareTakersInformationActivity"
+            android:label="@string/title_activity_care_takers_information" >
+        </activity>
+        <activity
+            android:name="com.mabers.panicresponse.EmergencyHelpActivity"
+            android:label="@string/title_activity_emergency_help" >
+        </activity>
+        <activity
+            android:name="com.mabers.panicresponse.EmergencyTriggeredActivity"
+            android:noHistory="true"
+            android:label="@string/title_activity_emergency_triggered" >
+        </activity>
+
+        <service
+            android:name="com.mabers.panicresponse.MusicService"
+            android:enabled="true" >
+        </service>
+        <service
+            android:name="com.mabers.panicresponse.SensorsService"
+            android:enabled="true" >
+        </service>
+
+        <receiver android:name="com.mabers.panicresponse.MainActivity$BroadcastReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.READ_PHONE_STATE" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.mabers.panicresponse.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:theme="@style/settingsTheme" >
+        </activity>
+        <activity
+            android:name="com.mabers.panicresponse.HelpButtonActivity"
+            android:label="@string/title_activity_help_button" >
+        </activity>
+    </application>
+
+</manifest>

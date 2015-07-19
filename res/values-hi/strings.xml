@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">आतंक प्रतिक्रिया</string>
+    <string name="action_settings">सेटिंग्स</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_user_details">उपयोगकर्ता विस्तार</string>
+    <string name="title_activity_care_takers_info_layout">रखवाले</string>
+    <string name="name">नाम</string>
+    <string name="phone">फ़ोन</string>
+    <string name="title_activity_medicinal_details">औषधीय विवरण</string>
+    <string name="title_activity_emergency_help">आपातकालीन मदद दिशाओं</string>
+    <string name="information_file">fall_detector_information_file</string>
+    <string name="user_Name">UserName</string>
+    <string name="user_address">UserAddress</string>
+    <string name="careTaker1Name">CareTaker1Name</string>
+    <string name="careTaker1Phone">CareTaker1Phone</string>
+    <string name="careTaker2Name">CareTaker2Name</string>
+    <string name="careTaker2Phone">CareTaker2Phone</string>
+    <string name="medicinalDetails">MedicianlDetails</string>
+    <string name="emergencyHelp">EmergencyHelp</string>
+    <string name="isDataSaved">isDataSaved</string>
+    <string name="title_activity_view_user_info">उपयोगकर्ता जानकारी</string>
+    <string name="title_activity_care_takers_information">रखवाले</string>
+    <string name="title_activity_emergency_triggered">आपात ट्रिगर</string>
+    
+    <string name="next">अगला</string>
+    <string name="care_taker_one">रखवाला 1</string>
+     <string name="care_taker_two">रखवाला 2</string>
+     <string name="submit">प्रस्तुत करना</string>
+     <string name="user_details">उपयोगकर्ता विस्तार</string>
+     <string name="help">मदद!</string>
+     <string name="address">पता</string>
+     <string name="edit">संपादित करें</string>
+     <string name="call">कॉल</string>
+     <string name="emergency_help">आपातकालीन मदद</string>
+     <string name="cancel">रद्द</string>
+
+</resources>
